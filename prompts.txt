@@ -1,0 +1,8 @@
+To run : streamlit run real_estate_bot.py 
+GROQ API : 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
+
+Need a rental apartment in Bangalore for ₹25,000/month in Kengeri MBR Shangri-La
+I want a 2BHK flat in Pune under ₹40 lakhs
+Show me luxury villas near Delhi NCR
+I want to buy a house in Mangalore
+Show me 3-bedroom villas in Kashmir to Purchase
