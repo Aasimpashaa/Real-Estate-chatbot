@@ -1,4 +1,54 @@
 # Real-Estate-chatbot
+
+# 🏡 Real Estate Chatbot
+
+An AI-powered conversational assistant for real estate property searches. Built using **Streamlit** for a modern chat UI and **Groq API** with **Meta’s LLaMA 3** for intelligent property suggestions, this chatbot simplifies the property discovery process through natural, human-like conversations.
+
+---
+
+## 🚀 Project Overview
+
+🔍 Traditional real estate search platforms are complex and slow. This chatbot offers an **interactive, intelligent solution** that:
+
+- Understands plain-English real estate queries.
+- Suggests realistic property listings.
+- Asks clarifying questions like a real agent.
+- Simulates human-like conversation using LLMs.
+
+This project was developed as part of the **GenBot Expo 2025** at **SJBIT**, under the guidance of **Dr. Gopala Krishna M T**, Professor & HoD, Dept. of ISE.
+
+---
+
+## 🎯 Objectives
+
+- Enable intuitive, natural language-based property search.
+- Generate 2–3 realistic property options per query.
+- Maintain conversation flow with session memory.
+- Provide a clean, chat-based interface using Streamlit.
+- Ensure scalable and serverless backend architecture.
+
+---
+
+## 🧠 Tech Stack
+
+| Component         | Tool/Service         |
+|------------------|----------------------|
+| UI Framework      | Streamlit             |
+| LLM Provider      | Groq API              |
+| Language Model    | Meta’s LLaMA 3 (8B)   |
+| Programming Lang. | Python 3.8+           |
+| Deployment        | Localhost / Cloud     |
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/real-estate-chatbot.git
+   cd real-estate-chatbot
+
 import streamlit as st
 from groq import Groq
 
