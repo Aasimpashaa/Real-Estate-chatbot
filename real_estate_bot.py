@@ -1,7 +1,11 @@
 import streamlit as st
 from groq import Groq
+import os
 
-client = Groq(api_key="GROQ_API_KEY")
+# Read key from Streamlit Secrets (deployment) or env (local)
+api_key = st.secrets.get("GROQ_API_KEY") or os.getenv("GROQ_API_KEY")
+
+client = Groq(api_key=api_key)
 
 st.set_page_config(page_title="Real Estate Bot", page_icon="🏡")
 st.title("🏡 Real Estate Bot")
@@ -47,4 +51,5 @@ if user_input:
                 response_container.markdown(full_reply)
 
         st.session_state.messages.append({"role": "assistant", "content": full_reply})
+
 
